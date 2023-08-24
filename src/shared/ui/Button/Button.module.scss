@@ -1,0 +1,47 @@
+.Button {
+  cursor: pointer;
+  color: var(--actident-color);
+}
+
+.clearSmall {
+  padding: 8px 60px;
+  border-radius: 7px;
+  font: var(--font-btn);
+  border: 2px solid var(--actident-color);
+  background: none;
+  outline: none;
+  @media (max-width: 780px) {
+    padding: 6px 20px;
+  }
+}
+
+.clearSmallHeader {
+  padding: 8px 60px;
+  border-radius: 7px;
+  font: var(--font-btn-s);
+  border: 2px solid var(--actident-color);
+  background: none;
+  outline: none;
+  @media (max-width: 780px) {
+    padding: 6px 20px;
+  }
+}
+
+.clearBig {
+  padding: 15px 40px;
+  border-radius: 5px;
+  font: var(--font-btn);
+  border: 2px solid var(--actident-color);
+  background: none;
+  outline: none;
+}
+
+.filledBig {
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 2px solid var(--actident-color);
+  font: var(--font-btn);
+  background: var(--actident-color);
+  color: #ffffff;
+  outline: none;
+}

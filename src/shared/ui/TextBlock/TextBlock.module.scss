@@ -1,0 +1,11 @@
+.TextBlock {
+
+}
+
+.h1 {
+  font: var(--font-h1);
+
+  @media (max-width: 780px) {
+    font: var(--font-h3);
+  }
+}

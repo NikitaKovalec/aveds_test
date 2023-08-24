@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --font-family-main: "Montserrat", sans-serif;
+
+    --bg-color: #fff;
+    --primary-color: #252B42;
+    --actident-color: #FF685B;
+    --danger-color: #E74040;
+
+    --font-size-p: 14px;
+    --font-line-p: 20px;
+    --font-weight-p: 400;
+    --font-p: var(--font-weight-p) var(--font-size-p) / var(--font-line-p) var(--font-family-main);
+
+    --font-size-btn: 14px;
+    --font-line-btn: 22px;
+    --font-weight-btn: 700;
+    --font-btn: var(--font-weight-btn) var(--font-size-btn) / var(--font-line-btn) var(--font-family-main);
+
+    --font-size-btn-s: 20px;
+    --font-line-btn-s: 22px;
+    --font-weight-btn-s: 500;
+    --font-btn-s: var(--font-weight-btn-s) var(--font-size-btn-s) / var(--font-line-btn-s) var(--font-family-main);
+
+    --font-size-h3: 28px;
+    --font-line-h3: 39px;
+    --font-weight-h3: 700;
+    --font-h3: var(--font-weight-h3) var(--font-size-h3) / var(--font-line-h3) var(--font-family-main);
+
+    --font-size-h2: 16px;
+    --font-line-h2: 24px;
+    --font-weight-h2: 700;
+    --font-h2: var(--font-weight-h2) var(--font-size-h2) / var(--font-line-h2) var(--font-family-main);
+
+    --font-size-h1: 58px;
+    --font-line-h1: 80px;
+    --font-weight-h1: 700;
+    --font-h1: var(--font-weight-h1) var(--font-size-h1) / var(--font-line-h1) var(--font-family-main);
+}

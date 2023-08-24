@@ -1,0 +1,57 @@
+.modal {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modalActive {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modalContent {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 400px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  font: var(--font-h2);
+  margin-bottom: 5px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.error {
+  font: var(--font-p);
+  color: var(--danger-color);
+  margin: 10px 0;
+}

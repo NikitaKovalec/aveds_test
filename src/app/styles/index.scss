@@ -1,0 +1,11 @@
+@import "reset";
+@import "variables/global";
+
+.app {
+    font: var(--font-h2);
+
+    height: 100vh;
+
+    background: var(--bg-color);
+    color: var(--primary-color);
+}

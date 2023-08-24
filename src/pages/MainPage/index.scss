@@ -1,0 +1,36 @@
+.main {
+  padding: 0 30px;
+}
+
+.btnBlock {
+  margin-top: 35px;
+}
+
+.firstButton {
+  margin-right: 10px;
+
+  @media (max-width: 780px) {
+    margin-bottom: 15px;
+  }
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  @media (max-width: 1090px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  @media (max-width: 780px) {
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    flex-direction: column;
+  }
+}
